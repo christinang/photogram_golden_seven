@@ -1,6 +1,6 @@
 <h1>Edit Photo</h1>
 
-<form action="/update_photo/<%= photo.id %>">
+<form action="/update_photo/<%= @photo.id %>">
 <div>
   <label for="caption">Caption:</label>
   <input id="caption" type="text" name="updated_caption" value="<%= @photo.caption %>">

@@ -36,7 +36,7 @@ def update_row
   photo.caption = params[:updated_caption]
   photo.source = params[:updated_source]
   photo.save
-  redirect_to("/photos/:id")
+  redirect_to("/photos/#{photo.id}")
 end
 
 end
